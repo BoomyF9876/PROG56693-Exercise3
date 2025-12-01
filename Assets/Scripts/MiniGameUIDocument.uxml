@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement name="VisualElement2" style="flex-direction: row; align-items: center; position: absolute; right: 0; left: 0; height: 32px;">
-        <ui:Button text="Show Tutorial" display-tooltip-when-elided="true" name="btnMgShowTutorial" style="white-space: nowrap; -unity-text-align: upper-center; align-items: stretch; justify-content: space-around; position: absolute; right: 0; transform-origin: right;" />
+        <ui:Button text="Show GUI" display-tooltip-when-elided="true" name="btnMgShowTutorial" style="white-space: nowrap; -unity-text-align: upper-center; align-items: stretch; justify-content: space-around; position: absolute; right: 0; transform-origin: right;" />
         <ui:Toggle label="List" name="cbList" style="justify-content: flex-end; align-items: auto; flex-direction: row; width: 185px; -unity-text-align: middle-right; transform-origin: center; position: absolute; right: auto; height: 17px; left: 14px; display: flex;" />
     </ui:VisualElement>
     <ui:ScrollView name="scFoldout" style="top: 40px; bottom: 10px; position: absolute; width: 302px;">

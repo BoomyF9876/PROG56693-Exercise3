@@ -118,7 +118,7 @@ public class MiniGameTutorialDocument : MonoBehaviour
         scFoldout = rootVisualElement.Q<ScrollView>("scFoldout");
         frame3 = rootVisualElement.Q<VisualElement>("VisualElement3");
         flGundams = frame3.Q<Foldout>("flGundams");
-        flGundams.text = "Gundam Names";
+        flGundams.text = "Object Types:";
         flGundams.value = false;
 
         for (int i = 0; i < GundamNames.Length; i++)
