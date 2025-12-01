@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ItemRow" style="flex-direction: row; height: 56px;">
+        <ui:VisualElement name="Row" style="width: 114px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="Name" style="width: 170px; justify-content: flex-start; align-items: center; -unity-text-align: middle-left; -unity-font-style: bold;" />
+        <ui:Button text="Print" display-tooltip-when-elided="true" name="btnPrint" style="width: 58px; white-space: nowrap; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>

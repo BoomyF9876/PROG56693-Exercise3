@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement2" style="flex-direction: row; align-items: center; position: absolute; right: 0; left: 0; height: 32px;">
+        <ui:Button text="Show Tutorial" display-tooltip-when-elided="true" name="btnMgShowTutorial" style="white-space: nowrap; -unity-text-align: upper-center; align-items: stretch; justify-content: space-around; position: absolute; right: 0; transform-origin: right;" />
+        <ui:Toggle label="List" name="cbList" style="justify-content: flex-end; align-items: auto; flex-direction: row; width: 185px; -unity-text-align: middle-right; transform-origin: center; position: absolute; right: auto; height: 17px; left: 14px; display: flex;" />
+    </ui:VisualElement>
+    <ui:ScrollView name="scFoldout" style="top: 40px; bottom: 10px; position: absolute; width: 302px;">
+        <ui:VisualElement name="VisualElement3" style="height: 241px; top: auto;">
+            <ui:Foldout text="Foldout" name="flGundams" />
+        </ui:VisualElement>
+    </ui:ScrollView>
+    <ui:ListView focusable="true" name="lstOptions" style="align-items: auto; justify-content: center; flex-direction: column; display: flex; top: 42px; position: absolute; width: 304px; left: 10px; height: 243px; bottom: 0;" />
+    <ui:VisualElement name="VisualElement" style="flex-direction: column; position: absolute; bottom: 0; margin-left: 10px; margin-right: 10px; margin-bottom: 10px; background-color: rgba(15, 24, 79, 0.44); top: auto; right: 0; left: 0;">
+        <ui:Label text="Welcome To The MiniGame.  Lets Learn How To Play&#x9;&#x9;" display-tooltip-when-elided="true" name="lblMiniGameTutorialText" tooltip="Click To See " style="height: 117px; justify-content: center; align-items: center; -unity-text-align: lower-left;" />
+        <ui:ProgressBar title="Progress" name="prTutorials" style="background-color: rgba(13, 23, 103, 0.9);" />
+        <ui:Button text="Next" display-tooltip-when-elided="true" name="btnMGTutNext" high-value="7" style="-unity-text-align: upper-center;" />
+    </ui:VisualElement>
+</ui:UXML>
